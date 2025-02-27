@@ -2,4 +2,4 @@
 npm install -g newman
 
 //for postman collection execution via CLI
-newman run SimpleBooks_APITesting.postman_collection.json -d SimpleBooks_TestData.csv
+newman run SimpleBooks_APITesting.postman_collection.json -d SimpleBooks_InputData.csv -r cli,json,html --reporter-json-export SimpleBooks_APITesting.postman_results.json --reporter-html-export SimpleBooks_APITesting.postman_results.html
