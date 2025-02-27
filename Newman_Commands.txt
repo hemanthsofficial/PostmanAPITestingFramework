@@ -1,0 +1,5 @@
+//for newman installation
+npm install -g newman
+
+//for postman collection execution via CLI
+newman run SimpleBooks_APITesting.postman_collection.json -d SimpleBooks_TestData.csv
